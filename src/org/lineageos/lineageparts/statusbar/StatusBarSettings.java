@@ -215,7 +215,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private int getClockPosition() {
         return LineageSettings.System.getInt(getActivity().getContentResolver(),
-                STATUS_BAR_CLOCK_STYLE, 2);
+                STATUS_BAR_CLOCK_STYLE, 1);
     }
 
     public static final Searchable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
